@@ -1,0 +1,34 @@
+Questão 01
+
+Resposta: c) Oferece maior controle sobre o hardware, mas é mais difícil de programar.
+Linguagens de baixo nível, como Assembly, dão controle direto do hardware, porém são mais complexas.
+
+Questão 02
+
+Resposta: b) C, Java e Python
+Todas são linguagens de alto nível. Assembly e Machine Code são baixo nível.
+
+Questão 03
+
+Resposta: a) É traduzido para código de máquina antes de ser executado.
+Programas compilados passam por uma etapa de compilação que gera código executável.
+
+Questão 04
+
+Resposta: b) Podem ser executados imediatamente sem uma etapa de compilação.
+Interpretados (como Python) não precisam gerar um executável antes de rodar.
+
+Questão 05
+
+Resposta: c) O código é compilado para bytecode e, em seguida, interpretado pela JVM.
+O Java passa por duas etapas: compilação em bytecode + interpretação/execução pela JVM.
+
+Questão 06
+
+Resposta: b) Definir passos lógicos para solucionar um problema.
+Um algoritmo é uma sequência lógica de instruções para resolver um problema.
+
+Questão 07
+
+Resposta: c) A habilidade de organizar e estruturar pensamentos para resolver problemas de forma lógica e eficiente.
+Lógica de programação é sobre raciocínio estruturado para criar soluções.
