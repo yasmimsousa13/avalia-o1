@@ -1,0 +1,21 @@
+Questão-Problema 01: Cadastro de Aluno
+Variáveis necessárias e seus tipos:
+Informação a armazenar	Nome sugerido da variável	Tipo de dado	Justificativa
+Nome completo	nomeAluno	String	Texto
+Idade	idade	int	Valor inteiro
+Altura (em metros)	altura	double	Permite números decimais
+Está matriculado?	matriculado	boolean	Verdadeiro ou falso
+✅ Questão-Problema 02: Informações de Produto
+Variáveis necessárias e tipos:
+Informação a armazenar	Nome sugerido da variável	Tipo de dado	Justificativa
+Nome do produto	nomeProduto	String	Texto
+Quantidade em estoque	quantidade	int	Número inteiro
+Preço unitário	precoUnitario	double	Valor decimal
+Disponível para venda?	disponivelVenda	boolean	V/F
+✅ Questão-Problema 03: Dados de um Evento
+Variáveis necessárias e tipos:
+Informação a armazenar	Nome sugerido da variável	Tipo de dado	Justificativa
+Nome do evento	nomeEvento	String	Texto
+Número de participantes esperados	participantesEsperados	int	Valor inteiro
+Preço do ingresso	precoIngresso	double	Número decimal
+Evento será presencial?	presencial	boolean	V/F
