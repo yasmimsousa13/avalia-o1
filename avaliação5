@@ -1,0 +1,38 @@
+public class VerificacaoDesconto {
+    public static void main(String[] args) {
+
+        boolean produtoComDesconto = true;   // exemplo
+        boolean cupomValido = false;         // exemplo
+
+        boolean descontoAplicado = produtoComDesconto || cupomValido;
+
+        System.out.println("Desconto aplicado: " + descontoAplicado);
+    }
+}
+✅ Questão 02 – Autorização de Compra
+✔ Requisitos:
+Variáveis booleanas:
+
+saldoSuficiente
+
+contaVerificada
+
+Compra autorizada se saldo suficiente E conta verificada (&&).
+
+Exibir "Compra autorizada: true/false".
+
+✔ Código em Java:
+java
+Copiar código
+public class AutorizacaoCompra {
+    public static void main(String[] args) {
+
+        boolean saldoSuficiente = true;    // exemplo
+        boolean contaVerificada = true;    // exemplo
+
+        boolean compraAutorizada = saldoSuficiente && contaVerificada;
+
+        System.out.println("Compra autorizada: " + compraAutorizada);
+    }
+}
+Se quiser, posso juntar tudo
