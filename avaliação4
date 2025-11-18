@@ -1,0 +1,27 @@
+public class Questao01 {
+    public static void main(String[] args) {
+
+        double base = 5.5;
+        double altura = 3.2;
+
+        double area = base * altura;
+        double perimetro = 2 * (base + altura);
+
+        System.out.println("Área do retângulo: " + area);
+        System.out.println("Perímetro do retângulo: " + perimetro);
+    }
+}
+✅ Questão 02 – Comparação de Idades
+java
+Copiar código
+public class Questao02 {
+    public static void main(String[] args) {
+
+        int idade1 = 25;
+        int idade2 = 30;
+
+        boolean primeiraMaisVelha = idade1 > idade2;
+
+        System.out.println("A primeira pessoa é mais velha: " + primeiraMaisVelha);
+    }
+}
