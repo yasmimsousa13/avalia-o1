@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Questao01 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        final double MEDIA_APROVACAO = 7.0;
+
+        System.out.print("Digite a nota da primeira prova: ");
+        double n1 = entrada.nextDouble();
+
+        System.out.print("Digite a nota da segunda prova: ");
+        double n2 = entrada.nextDouble();
+
+        double media = (n1 + n2) / 2;
+
+        boolean aprovado = media >= MEDIA_APROVACAO;
+
+        System.out.println("Aprovado: " + aprovado);
+
+        entrada.close();
+    }
+}
+✅ Questão 02 – Verificação de Compra
+java
+Copiar código
+import java.util.Scanner;
+
+public class Questao02 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        final double TAXA_DESCONTO = 0.10;
+
+        System.out.print("Digite o preço do produto: ");
+        double preco = entrada.nextDouble();
+
+        System.out.print("Digite o valor disponível do cliente: ");
+        double valorCliente = entrada.nextDouble();
+
+        double precoComDesconto = preco - (preco * TAXA_DESCONTO);
+
+        boolean compraPermitida = valorCliente >= precoComDesconto;
+
+        System.out.println("Compra permitida: " + compraPermitida);
+
+        entrada.close();
+    }
+}
