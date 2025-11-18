@@ -1,0 +1,25 @@
+public class WrapperDemo {
+    public static void main(String[] args) {
+
+        // Usando Integer.parseInt
+        String numeroTexto = "123";
+        int numero = Integer.parseInt(numeroTexto);
+        System.out.println("Número convertido com parseInt: " + numero);
+
+        // Usando Character.isLetterOrDigit
+        char caractere = 'A';
+        if (Character.isLetterOrDigit(caractere)) {
+            System.out.println("O caractere '" + caractere + "' é uma letra ou dígito.");
+        }
+
+        // Usando String.toUpperCase
+        String nome = "programação";
+        System.out.println("Nome em maiúsculas: " + nome.toUpperCase());
+    }
+}
+✔️ Resultado esperado
+mathematica
+Copiar código
+Número convertido com parseInt: 123
+O caractere 'A' é uma letra ou dígito.
+Nome em maiúsculas: PROGRAMAÇÃO
